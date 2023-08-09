@@ -8,6 +8,7 @@ import Navbar from "./components/navbar";
 import RecordList from "./components/recordList";
 import Edit from "./components/edit";
 import Create from "./components/create";
+import GetSubs from "./components/GetSubs";
  
 const App = () => {
  return (
@@ -18,6 +19,7 @@ const App = () => {
        <Route path="/edit/:id" element={<Edit />} />
        <Route path="/create" element={<Create />} />
      </Routes>
+     <button onClick={GetSubs}>Fetch Subscribers</button>
    </div>
  );
 };
