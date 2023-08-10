@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
  
  export default function GetSubs(){
-        const baseURL = "http://localhost:5050"
+        const baseURL = "https://server-5tk0.onrender.com"
         let newRecords = {}
         const records = {};
  
