@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const baseURL = "https://server-5tk0.onrender.com";
+//const baseURL = "https://server-5tk0.onrender.com";
+const baseURL = "http://localhost:5050";
  
 const Record = (props) => (
  <tr>
