@@ -6,9 +6,9 @@ const baseURL = "http://localhost:5050";
  
 const Record = (props) => (
  <tr>
-   <td>{props.record.name}</td>
-   <td>{props.record.position}</td>
-   <td>{props.record.level}</td>
+   <td>{props.first_name}</td>
+   <td>{props.last_name}</td>
+   <td>{props.email}</td>
    <td>
      <Link className="btn btn-link" to={`/edit/${props.record._id}`}>Edit</Link> |
      <button className="btn btn-link"
