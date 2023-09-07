@@ -6,10 +6,7 @@ import { Route, Routes } from "react-router-dom";
 // We import all the components we need in our app
 import Navbar from "./components/navbar";
 import RecordList from "./components/recordList";
-import Edit from "./components/edit";
-import Create from "./components/create";
-import getSubs from "./components/SubsList";
-import SubscriberList from "./components/SubsList";
+
  
 const App = () => {
  return (
@@ -17,11 +14,10 @@ const App = () => {
      <Navbar />
      <Routes>
        <Route exact path="/" element={<RecordList />} />
-       <Route exact path="/" element={<SubscriberList />} />
-       <Route path="/edit/:id" element={<Edit />} />
-       <Route path="/create" element={<Create />} />
+
+      
      </Routes>
-     <button onClick={getSubs}>Button button</button>
+     
     
    </div>
  );

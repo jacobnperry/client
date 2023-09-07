@@ -1,0 +1,31 @@
+body{
+    background-color: #e7cac2;
+}
+
+.dropDown{
+    padding: 5px;
+    margin: 10px;
+    width: 10vw;
+    border: 0;
+    border-radius: 3px;
+}
+
+.actions{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.textInput{
+    padding: 10px;
+}
+
+.response{
+    width: 60vw;
+    height: 60vh;
+    background-color:#ffffff;
+    margin-left: 20vw;
+
+    border-radius: 10px;
+    font-size: 1rem;
+    
+}
